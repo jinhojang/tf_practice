@@ -9,7 +9,7 @@ a = tf.constant([3.0, 3.0])
 x.initializer.run()
 
 # Add an op to subtract 'a' from 'x'.  Run it and print the result
-sub = tf.sub(x, a)
+sub = tf.subtract(x, a)
 print(sub.eval())
 # ==> [-2. -1.]
 
